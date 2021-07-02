@@ -22,7 +22,7 @@ class FeedProvider extends ChangeNotifier {
   ];
   String _newsURL = "https://google.com/";
   bool _webviwAdded = false;
-  List<String> _lastGetRequest = List<String>();
+  List<String> _lastGetRequest = List.filled(0, "", growable: true);
 
   //
 

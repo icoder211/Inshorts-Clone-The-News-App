@@ -1,0 +1,13 @@
+# Display Appbar on tap in Feeds 
+
+# Change "India" feed to "Korea" feed (in Discover screen)
+
+# Music Player ?? (coz why not!)
+	-- Can play soft Lofi music
+	-- Natural sounds (rain, crickets chriping, etc.)
+
+# Add swipe sound effects ?
+
+# News Reader
+
+# Any Korea Specific Feeds in the Discover screen

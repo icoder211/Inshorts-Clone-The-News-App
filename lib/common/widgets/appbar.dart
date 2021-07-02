@@ -44,8 +44,8 @@ class CustomAppBar extends StatelessWidget {
                                 FeatherIcons.settings,
                               ),
                               onPressed: () {
-                                // Router.navigator
-                                //     .pushNamed(Router.settingsScreen);
+                                Rouut.navigator
+                                    .pushNamed(Rouut.settingsScreen);
                               },
                             )
                           : Row(

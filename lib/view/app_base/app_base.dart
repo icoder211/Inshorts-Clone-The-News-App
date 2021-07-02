@@ -45,6 +45,9 @@ class _AppBaseState extends State<AppBase> with AutomaticKeepAliveClientMixin {
 
     FeedController.getCurrentPage((page) {
       _pageController.jumpToPage(page);
+      setState(() {
+        currentPage = page;
+      });
     });
 
     super.initState();

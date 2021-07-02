@@ -1,0 +1,13 @@
+# [FIXED] Settings not working
+
+# Render Widget Overflow for long names (Corona Virus) in Appbar
+
+# In "Swipe left to see more", Pages added to PageView even after swiping left. Can swipe indefinitely left now.
+
+# News Website and inShorts news don't match (sometimes)
+
+# After changing language, some texts are not updating (e.g., in app bar, on Discover screen, the "My Feeds" text) (sometimes)
+
+# Janking swipe (vertical in feeds and horizontal in My Feeds -> <News Site>)
+
+# Old Feeds coming before new feeds (e.g., Corona virus feeds)
