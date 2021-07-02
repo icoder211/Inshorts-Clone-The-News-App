@@ -58,67 +58,93 @@ class FeedProvider extends ChangeNotifier {
 
   void setActiveCategory(int activeCategory) {
     this._activeCategory = activeCategory;
-    notifyListeners();
+    WidgetsBinding.instance.addPostFrameCallback((_){
+      notifyListeners();
+    });
   }
 
   void setAppBarTitle(String appBarTitle) {
     this._appBarTitle = appBarTitle;
-    notifyListeners();
+    WidgetsBinding.instance.addPostFrameCallback((_){
+      notifyListeners();
+    });
   }
 
   void setDataLoaded(bool status) {
     this._hasDataLoaded = status;
-    notifyListeners();
+    WidgetsBinding.instance.addPostFrameCallback((_){
+      notifyListeners();
+    });
   }
 
   void setSearchAppBarVisible(bool searchAppBarVisible) {
     this._searchAppBarVisible = searchAppBarVisible;
-    notifyListeners();
+    WidgetsBinding.instance.addPostFrameCallback((_){
+      notifyListeners();
+    });
   }
 
   void setAppBarVisible(bool appBarVisible) {
     this._appBarVisible = appBarVisible;
-    notifyListeners();
+    WidgetsBinding.instance.addPostFrameCallback((_){
+      notifyListeners();
+    });
   }
 
   void setWatermarkVisible(bool visible) {
     this._watermarkVisible = visible;
-    notifyListeners();
+    WidgetsBinding.instance.addPostFrameCallback((_){
+      notifyListeners();
+    });
   }
 
   void setFeedBottomActionbarVisible(bool feedBottomActionbarVisible) {
     this._feedBottomActionbarVisible = feedBottomActionbarVisible;
-    notifyListeners();
+    WidgetsBinding.instance.addPostFrameCallback((_){
+      notifyListeners();
+    });
   }
 
   void setCurentArticalIndex(int curentArticalIndex) {
     this._curentArticalIndex = curentArticalIndex;
-    notifyListeners();
+    WidgetsBinding.instance.addPostFrameCallback((_){
+      notifyListeners();
+    });
   }
 
   void setfeedPageController(PageController pageController) {
     this._feedPageController = pageController;
-    notifyListeners();
+    WidgetsBinding.instance.addPostFrameCallback((_){
+      notifyListeners();
+    });
   }
 
   void setScreenController(PageController pageController) {
     this._screenController = pageController;
-    notifyListeners();
+    WidgetsBinding.instance.addPostFrameCallback((_){
+      notifyListeners();
+    });
   }
 
   void addWebScren(Widget widget) {
     _baseScreen.add(widget);
-    notifyListeners();
+    WidgetsBinding.instance.addPostFrameCallback((_){
+      notifyListeners();
+    });
   }
 
   void setNewsURL(String newsURL) {
     this._newsURL = newsURL;
-    notifyListeners();
+    WidgetsBinding.instance.addPostFrameCallback((_){
+      notifyListeners();
+    });
   }
 
   void setWebViewAdded() {
     this._webviwAdded = true;
-    notifyListeners();
+    WidgetsBinding.instance.addPostFrameCallback((_){
+      notifyListeners();
+    });
   }
 
   void setLastGetRequest(String request, String value) {
